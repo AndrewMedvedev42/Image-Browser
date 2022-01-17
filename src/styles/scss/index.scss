@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+.main-page-section{
+    .image-list{
+        padding: 1rem;
+        columns: 4;
+        a{
+            display: inline-block;
+            list-style: none;
+            img{
+                transition: 0.3s;
+                width: 100%;
+            }
+            img:hover{
+                opacity: 0.5;
+            }
+        }
+    }
+}
+
+.image-page{
+    .image-preview-section{
+        margin: 1rem auto;
+        padding: 1rem;
+        display: flex;
+        width: 50%;
+        border-radius: 20px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.199);
+        img{
+            width: 50%;
+        }
+        article{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

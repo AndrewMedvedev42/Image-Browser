@@ -1,0 +1,30 @@
+body {
+  margin: 0; }
+
+.main-page-section .image-list {
+  padding: 1rem;
+  columns: 4; }
+  .main-page-section .image-list a {
+    display: inline-block;
+    list-style: none; }
+    .main-page-section .image-list a img {
+      transition: 0.3s;
+      width: 100%; }
+    .main-page-section .image-list a img:hover {
+      opacity: 0.5; }
+
+.image-page .image-preview-section {
+  margin: 1rem auto;
+  padding: 1rem;
+  display: flex;
+  width: 50%;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.199); }
+  .image-page .image-preview-section img {
+    width: 50%; }
+  .image-page .image-preview-section article {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
