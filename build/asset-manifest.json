@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Image-Sharing-Platform/static/css/main.9085d2fb.css",
-    "main.js": "/Image-Sharing-Platform/static/js/main.a6d794e6.js",
-    "static/js/787.fecbfb1d.chunk.js": "/Image-Sharing-Platform/static/js/787.fecbfb1d.chunk.js",
-    "index.html": "/Image-Sharing-Platform/index.html",
-    "main.9085d2fb.css.map": "/Image-Sharing-Platform/static/css/main.9085d2fb.css.map",
-    "main.a6d794e6.js.map": "/Image-Sharing-Platform/static/js/main.a6d794e6.js.map",
-    "787.fecbfb1d.chunk.js.map": "/Image-Sharing-Platform/static/js/787.fecbfb1d.chunk.js.map"
+    "main.css": "/static/css/main.d6c1ad9d.css",
+    "main.js": "/static/js/main.ba998c0f.js",
+    "static/js/787.fecbfb1d.chunk.js": "/static/js/787.fecbfb1d.chunk.js",
+    "index.html": "/index.html",
+    "main.d6c1ad9d.css.map": "/static/css/main.d6c1ad9d.css.map",
+    "main.ba998c0f.js.map": "/static/js/main.ba998c0f.js.map",
+    "787.fecbfb1d.chunk.js.map": "/static/js/787.fecbfb1d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9085d2fb.css",
-    "static/js/main.a6d794e6.js"
+    "static/css/main.d6c1ad9d.css",
+    "static/js/main.ba998c0f.js"
   ]
 }
