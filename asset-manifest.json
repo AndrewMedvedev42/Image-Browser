@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Image-Sharing-Platform/static/css/main.4953913a.css",
-    "main.js": "/Image-Sharing-Platform/static/js/main.83dbd357.js",
+    "main.css": "/Image-Sharing-Platform/static/css/main.f7206cc1.css",
+    "main.js": "/Image-Sharing-Platform/static/js/main.052eeee0.js",
     "static/js/787.fecbfb1d.chunk.js": "/Image-Sharing-Platform/static/js/787.fecbfb1d.chunk.js",
     "index.html": "/Image-Sharing-Platform/index.html",
-    "main.4953913a.css.map": "/Image-Sharing-Platform/static/css/main.4953913a.css.map",
-    "main.83dbd357.js.map": "/Image-Sharing-Platform/static/js/main.83dbd357.js.map",
+    "main.f7206cc1.css.map": "/Image-Sharing-Platform/static/css/main.f7206cc1.css.map",
+    "main.052eeee0.js.map": "/Image-Sharing-Platform/static/js/main.052eeee0.js.map",
     "787.fecbfb1d.chunk.js.map": "/Image-Sharing-Platform/static/js/787.fecbfb1d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4953913a.css",
-    "static/js/main.83dbd357.js"
+    "static/css/main.f7206cc1.css",
+    "static/js/main.052eeee0.js"
   ]
 }
