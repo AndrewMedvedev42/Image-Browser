@@ -38,7 +38,7 @@ export const ImagePage = () => {
         }
     },[image])
     return (
-        <section className="image-page">
+        <section className="image-page-section">
             <BackButtonsMenu/>
             <section className="image-preview-section">
                 {image ? (
@@ -46,7 +46,7 @@ export const ImagePage = () => {
                         <img src={image.urls.small} alt={image.alt_description}/>
                         <article className="photo-details">
                             <article className="author-details">
-                                <Link to={`/user/${image.user.username}`}>
+                                <Link to={`/users/${image.user.username}`}>
                                     <p className="author-profile-name"><span>Photo by:</span> {image.user.first_name} {image.user.last_name}</p>
                                     <img className="author-profile-photo" src={image.user.profile_image.large}/>
                                 </Link>
@@ -73,7 +73,7 @@ export const ImagePage = () => {
                         relatedImageList && (
                             relatedImageList.map((item)=>{
                                 return (
-                                        <Link onClick={()=>{scrollToTop()}} to={`/image/${item.id}`}>
+                                        <Link onClick={()=>{scrollToTop()}} to={`/images/${item.id}`}>
                                             <img src={item.urls.small}/>
                                         </Link>
                                 )

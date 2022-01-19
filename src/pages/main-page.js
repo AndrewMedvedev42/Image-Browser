@@ -23,7 +23,7 @@ export const MainPage = () => {
                 {imageList.length ? (
                     imageList.map(item=>{
                         return (
-                                <Link to={`/image/${item.id}`}>
+                                <Link to={`/images/${item.id}`}>
                                     <img key={item.id} src={item.urls.small}/>
                                 </Link>
                         )

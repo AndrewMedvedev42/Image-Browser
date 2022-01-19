@@ -10,8 +10,8 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<MainPage/>}></Route>
-          <Route path="/image/:id" element={<ImagePage/>}></Route>
-          <Route path="/user/:id" element={<UserProfilePage/>}></Route>
+          <Route path="/images/:id" element={<ImagePage/>}></Route>
+          <Route path="/users/:id" element={<UserProfilePage/>}></Route>
         </Routes>
       </Router>
     </div>

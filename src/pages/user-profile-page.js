@@ -37,7 +37,7 @@ export const UserProfilePage = () => {
                                 userCollection && (
                                     userCollection.map(item=>{
                                         return (
-                                            <Link to={`/image/${item.id}`}>
+                                            <Link to={`/images/${item.id}`}>
                                                 <img src={item.urls.regular}/>
                                             </Link>                     
                                         )
