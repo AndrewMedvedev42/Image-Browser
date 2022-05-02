@@ -1,6 +1,6 @@
-import { MainPage } from "./pages/main-page";
-import { ImagePage } from "./pages/image-page";
-import { UserProfilePage } from "./pages/user-profile-page";
+import { MainPage } from "./pages/main";
+import { ImagePage } from "./pages/image";
+import { UserProfilePage } from "./pages/userProfile";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 

@@ -5,7 +5,6 @@ import { Link,  useNavigate, useLocation } from "react-router-dom";
 import axios from 'axios';
 
 export const ImagePage = () => {
-    const history = useNavigate()
     const [image, setImage] = useState()
     const [relatedImageList, setRelatedImageList] = useState()
     const pathID = useLocation().pathname.split('/')[2]

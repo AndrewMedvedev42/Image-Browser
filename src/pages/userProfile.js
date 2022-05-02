@@ -15,7 +15,7 @@ export const UserProfilePage = () => {
 
     useEffect(()=>{
         axios.get(`https://api.unsplash.com/users/${pathID}/photos?client_id=${process.env.REACT_APP_UNSPLASH_ACCESS_TOKEN}&per_page=30`)
-            .then((res)=>{setUserCollection(res.data);})
+            .then((res)=>{setUserCollection(res.data)})
     },[userInfo])
     return (
         <section className="user-page-section">
